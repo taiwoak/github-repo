@@ -1,37 +1,22 @@
-# Altschool Frontend Second Semester Examination Project
+# Github Repository Lists Project
 
 This is a web application solution that lists all my repositories on GitHub and allows you to search and move between pages. The Error boundary was properly implemented with the 404 page.
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [Project Question](#project-question)
   - [Pages](#pages)
 - [Process](#process)
   - [Technology Used](#technology-used)
-  - [Lessons Learnt](#lessons-learnt)
+  - [Learnings](#learnings)
   - [Further Development](#further-development)
 - [How to run this on your Local PC](#how-to-run-this-on-your-local-pc)
 
 
 ## Overview
 
-### Project question
-Implement a Web App using GitHub API to fetch your GitHub repositories portfolio
-
-1. Show a page listing all your repositories on GitHub with pagination enabled. Implement Search and Filter.
-
-2. Create another page showing data for a single repo when clicked from the page Show all repos using nested routes while using all the necessary tools in React. 
-
-3. Implement an Error Boundary (show a page to test the error boundary)
-
-4. a 404 page (show a page to test the 404 page) 
-
-5. Good Layout, UI and Designs are essential. 
-
-
 ### Pages
-There are 4 pages implemented on this task: Home Page, Repository Page, 404 Page, Error Page.
+There are 4 pages implemented on this project: Home Page, Repository Page, 404 Page, Error Page.
 
 ### Home Page: 
 The home page has a navigation bar, hero section,  repositories list with pagination enabled with a previous and next button, search field and a footer section. The following are the functionalities you can carry out on the home page:
@@ -57,13 +42,13 @@ The page shows the error message that is been displayed by the Error Boundary fu
 ### Technology Used
 This includes React commponents, props, useState, useEffect, BrowserRouter, fetch API, react bootstrap.
 
-### Lessons Learnt
-How to fetch data from an external source using fetch()
-Adding routes to react apps using React Router v6
-Depolying React Routed sites to netlify
-Implementing pagination using the GitHub API
-Implementing Search functionality on the GitHub API
-Creating error boundaries and implementing error pages
+### Learnings
+- How to fetch data from an external source using fetch()
+- Adding routes to react apps using React Router v6
+- Depolying React Routed sites to netlify
+- Implementing pagination using the GitHub API
+- Implementing Search functionality on the GitHub API
+- Creating error boundaries and implementing error pages
 
 ### Further Development
 I learnt a lot during this project and I hope to learn more on fetching and consuming APIs, building APIs, learn more on Reactjs and Nodejs .
