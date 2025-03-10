@@ -23,7 +23,7 @@ const Repo = () => {
       }, [id]) 
     
       useEffect(() => {
-        fetch(`https://api.github.com/repos/taiwo/${id}/branches`)
+        fetch(`https://api.github.com/repos/taiwoak/${id}/branches`)
         .then((response) => (response.json()))
         .then((data) => {
           setBranch(data)
